@@ -1,0 +1,13 @@
+﻿<Window x:Class="すらっく.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="すらっく" Height="350" Width="525" Background="#FF7E7E7E" Visibility="Visible" Opacity="0.5" Icon="555ef3933f9d4.ico" ResizeMode="NoResize">
+    <Window.Effect>
+        <DropShadowEffect />
+    </Window.Effect>
+    <Grid>
+        <TextBox x:Name="PreEncodingText" HorizontalAlignment="Left" Height="127" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" RenderTransformOrigin="0.5,0.5" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" Background="#FFADADAD" />
+        <Button x:Name="EncodeButton" Content="変換" HorizontalAlignment="Left" Margin="225,142,0,0" VerticalAlignment="Top" Width="75" Click="EncodeButton_Click" Background="#FF4C4C4C" />
+        <TextBox x:Name="EncodedText" HorizontalAlignment="Left" Height="146" Margin="10,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" AcceptsReturn="True" Background="#FFADADAD" />
+    </Grid>
+</Window>

@@ -143,6 +143,7 @@ namespace すらっく
             throw new Exception("サポートされていない文字が入力されています");
         }
         EncodedText.Text = builder.ToString();
+        Clipboard.SetText(EncodedText.Text);
       }
       catch(Exception ex)
       {
